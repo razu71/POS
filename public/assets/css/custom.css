@@ -1,0 +1,304 @@
+.font-size-20 {
+    font-size: 20px !important;
+}
+
+.upload_image {
+    margin-top: 5px;
+    width: 50px;
+    height: 50px;
+    /*display: none;*/
+}
+
+.required {
+    color: red;
+}
+
+.modal-backdrop.in {
+    z-index: -9;
+    margin-top: 50px;
+}
+
+.modal-dialog.modal-dialog-centered {
+    margin-top: 100px;
+    margin-left: 50%;
+}
+
+span.sr-only {
+    display: none;
+}
+
+.main-header .logo {
+    position: relative;
+    top: 15px;
+}
+
+@media (min-width: 768px) {
+    .sidebar-mini.sidebar-collapse .main-header .logo {
+        width: 38px;
+    }
+}
+
+.sidebar-mini.sidebar-collapse .main-header .logo img {
+    max-width: 150px;
+    width: 150px;
+    margin-left: 2px;
+}
+
+.sidebar-mini.sidebar-collapse .main-header .navbar {
+    margin-left: 280px!important;
+}
+
+.sidebar-mini.sidebar-collapse .main-header .logo {
+    width: 230px!important;
+}
+
+.sidebar-mini.sidebar-collapse .content-wrapper,
+.sidebar-mini.sidebar-collapse .right-side,
+.sidebar-mini.sidebar-collapse .main-footer {
+    margin-left: 0px !important;
+}
+
+.sidebar-mini.sidebar-collapse .main-sidebar {
+    width: 0px!important;
+}
+
+.section-area svg {
+    width: 100%;
+}
+
+.btn-style li {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.btn-style li:first-child {
+    margin-left: 0;
+}
+
+.btn-style li a {
+    display: block;
+    padding: 10px 25px;
+    background: #00c0ef;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.btn-style li a:hover {
+    background: #ed1559;
+}
+
+.uneditable-input {
+    width: 100%;
+}
+
+.fileupload.fileupload-new .btn.btn-file {
+    position: absolute;
+    right: 15px;
+    top: 25px;
+}
+.edituser-btnstyle .btn.btn-primary.btn-file{
+    margin-top: 10px;
+}
+
+.edituser-btnstyle .btn.btn-primary.btn-file.browse{
+    margin-top: 0px;
+}
+
+.edituser-btnstyle button.fileinput-remove {
+    right: -30px;
+}
+
+.edituser-btnstyle .input-group .form-control {
+    width: 105%;
+}
+
+.content-wrapper {
+    padding-bottom: 30px;
+}
+.print-barcoad{
+    padding: 30px;
+    border: 1px solid #e5e5e5;
+    margin-bottom: 30px;
+}
+.print-barcoad p{
+    font-weight: 500;
+}
+.print-barcoad p.mb-15{
+    margin-bottom: 15px;
+}
+.not_found {
+    font-size: 14px;
+    font-weight: 600;
+}
+table.dataTable>tbody>tr.child ul {
+    display: block;
+    list-style-type: none;
+    margin: 0 -10px 0 -30px;
+    padding: 0 0;
+}
+table.dataTable>tbody>tr.child ul li{
+    padding: 10px 30px;
+}
+table.dataTable.dtr-inline.collapsed>tbody>tr>td:first-child, 
+table.dataTable.dtr-inline.collapsed>tbody>tr>th:first-child {
+    border-bottom: 1px solid #f4f4f4;
+}
+span.btn.btn-default.btn-file.btn-style {
+    margin-left: 0;
+}
+a.btn.btn-default.fileupload-exists {
+    background: red;
+    border: 1px solid red;
+    color: #fff;
+}
+.fileupload.fileupload-new .btn.btn-file {
+    background: #1274da;
+    color: #fff;
+    border: 1px solid #1274da;
+}
+.fileupload.fileupload-new .btn.btn-file i{
+    margin-right: 3px;
+}
+.print-barcoad{
+    text-align: center;
+}
+.print-barcoad div{
+    margin: auto;
+}
+.logout-auth-img img {
+    max-width: 100%;
+    height: 100%;
+}
+.form-box input[type="password"] {
+    border-radius: 0;
+    border-top: 1px solid #ccc;
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .btn-style li a {
+        padding: 8px 14px;
+    }
+    .btn-style li {
+        margin-left: 0px;
+    }
+    .table-scrollable {
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
+    .content {
+        padding: 0px;
+    }
+    .order-received .form-control {
+        margin-bottom: 5px;
+    }
+    .content-wrapper,
+    .main-footer {
+        margin-left: 250px;
+    }
+    .sale-report-table {
+        overflow-x: scroll;
+    }
+    .edituser-btn .input-group .form-control {
+        width: 109%;
+    }
+    .sidebar-collapse .navbar-custom-menu .short-icon>li>a {
+        padding: 10px 10px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .content-wrapper,
+    .main-footer,
+    .main-header .navbar {
+        margin-left: 0px!important;
+    }
+    .main-sidebar,
+    .content-wrapper {
+        padding-top: 145px;
+    }
+    header.main-header {
+        padding-top: 65px;
+    }
+    .main-header .logo {
+        position: absolute;
+        left: 0;
+        top: 0;
+        text-align: left;
+    }
+    .main-header .sidebar-toggle {
+        margin-left: 0;
+        position: absolute;
+        right: 0;
+        top: -60px;
+    }
+    .main-header .navbar-custom-menu {
+        width: 100%;
+        padding: 0px 15px;
+    }
+    .sidebar-open .main-sidebar {
+        left: 0;
+    }
+    body {
+        overflow-x: hidden;
+    }
+    .content {
+        padding: 0px;
+    }
+    .footer h4 {
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+    .navbar-nav .open .dropdown-menu {
+        position: absolute;
+        background: #1e1e1e;
+        top: 99%;
+    }
+    .btn-style li a {
+        padding: 10px 20px;
+    }
+    select.form-control.pull-right {
+        margin-top: 15px;
+    }
+    .content-wrapper {
+        margin-left: 0px!important;
+        padding-bottom: 30px;
+    }
+    .order-received .form-control {
+        margin-bottom: 5px;
+    }
+    .table-scrollable {
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
+    .sale-report-table {
+        overflow-x: scroll;
+    }
+    .edituser-btn .input-group .form-control {
+        width: 120%;
+    }
+    .main-sidebar {
+        position: fixed;
+        left: -300px;
+        height: 100vh;
+        top: 0;
+        transition: all .6s;
+        -webkit-transition: all .6s;
+        -moz-transition: all .6s;
+    }
+    .sidebar-open .main-sidebar {
+        left: 0;
+        position: fixed;
+    }
+    .sidebar-open .content-wrapper, .sidebar-open .main-footer {
+        -webkit-transform: translate(0px, 0);
+        -ms-transform: translate(0px, 0);
+        -o-transform: translate(0px, 0);
+        transform: translate(0px, 0);
+    }
+}
+@media (min-width: 380px) and (max-width: 767.98px) {
+    li.dropdown.hidden-xs {
+        display: inline-block!important;
+    }
+}

@@ -1,0 +1,3 @@
+<section class="dc-pad-top-30 dc-pad-bottom-30">
+        <div class="dc-gmap" data-height="400" data-marker="images/marker.png" data-latitude="40.74448" data-longitude="-73.95627" data-zoom="14" data-draggable="" data-defaultcontrol="yes" data-scrollable="" data-maptype="" data-mapinfo="Long Island City, Queens, NY, United States"></div>
+</section>

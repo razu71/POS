@@ -1,0 +1,90 @@
+.dc-nav.dc-nav-mobile nav ul ul{
+	padding-left: 20px;
+}
+.dc-nav nav ul{
+	background: #333333;
+	color:#ffffff;
+}
+.dc-nav span.dc-menutoggler{
+	right: 10px;
+    top: 7px;
+}
+.dc-nav span.dc-menutoggler:before{
+	content: '\f067';
+	font-family: fontawesome;
+	color: #fff;
+}
+.dc-nav li.haschild > a{
+	position:relative;
+}
+.dc-nav li.haschild > a:before{
+	content: '\f067';
+	font-family: fontawesome;
+	position: absolute;
+	right: 10px;
+	color:#fff;
+	font-size: 10px;
+	top: 3px;
+}
+.dc-nav li li.haschild > a:before{
+	top:2px;
+}
+.dc-nav li.haschild:hover > a:before{
+	content: '\f068';
+}
+.dc-nav > nav > ul > li.dc-megamenu > ul > li.dc-nav-mega-3 a:before,
+.dc-nav > nav > ul > li.dc-megamenu > ul > li.dc-nav-mega-4 a:before,
+.dc-nav > nav > ul > li.dc-megamenu > ul > li.dc-nav-mega-6 a:before,
+.dc-nav > nav > ul > li.dc-megamenu > ul > li.dc-nav-mega-8 a:before,
+.dc-nav > nav > ul > li.dc-megamenu > ul > li.dc-nav-mega-9 a:before,
+.dc-nav > nav > ul > li.dc-megamenu > ul > li.dc-nav-mega-12 a:before{
+	content: '';
+}
+.dc-nav.dc-nav-mobile li.haschild > a:before{
+	content: '';
+}
+.dc-nav li.haschild > a{
+	padding-right: 30px;
+}
+.dc-nav.dc-nav-mobile li.haschild > a{
+	padding-right: 0;
+}
+.dc-nav li.menuopened > span.dc-menutoggler:before{
+	content: '\f068';
+}
+.dc-nav.dc-nav-mobile .menu-toggle:after{
+	content: '\f0c9';
+	font-family: fontawesome;
+}
+
+/*---------------------------------------------*/
+.dc-nav nav li.haschild {
+  padding-right: 0;
+}
+.dc-nav nav li {
+  padding: 14px 20px;
+}
+.dc-nav nav li li{
+	padding: 10px 40px 10px 10px;
+}
+.dc-nav.dc-nav-mobile nav li{
+	padding-right: 0;
+}
+.dc-nav.dc-nav-mobile nav > ul ul{
+	transition: initial;
+}
+
+#dc-fixed-nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s linear;
+  z-index: 999;
+}
+
+#dc-fixed-nav.navshow{
+	opacity: 1;
+  	visibility: visible;
+}

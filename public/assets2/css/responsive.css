@@ -1,0 +1,70 @@
+/* (1366x768) WXGA Display */
+
+@media screen and (min-width: 1366px) and (max-width: 1919px) {
+
+}
+
+
+
+
+
+/* Normal desktop :992px. */
+
+@media (min-width: 992px) and (max-width: 1197px) 
+{
+	
+    #cart-clear_all li {
+        flex-basis: 100%;
+    }
+    .sidebar-collapse #cart-clear_all li {
+        flex-basis: calc(50% - 7px);
+    }
+
+}
+
+
+
+
+
+/* Normal desktop :991px. */
+
+@media (min-width: 768px) and (max-width: 991px) {
+.cart-wrap{
+    margin-bottom: 50px;
+}
+}
+
+
+/* extra small mobile 320px. */
+
+@media (max-width: 767px) {
+.table-responsive{
+    width: 550px;
+}
+.cart-wrap{
+    margin-bottom: 50px;
+}
+}
+
+
+
+/* small mobile :576px. */
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+}
+
+
+
+
+
+
+
+
+
+
+/* Large Mobile :480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 575px) {
+
+}

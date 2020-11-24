@@ -1,0 +1,163 @@
+@color-black: #000000;
+@color-black-tr-1: rgba(0, 0, 0, 0.8);
+@color-black-tr-2: rgba(0, 0, 0, 0.6);
+@color-black-tr-3: rgba(0, 0, 0, 0.3);
+@color-grey-3: #333333;
+@color-grey-6: #666666;
+@color-grey-9: #999999;
+@color-grey-c: #cccccc;
+@color-grey-d: #dddddd;
+@color-grey-de: #DEDEDE;
+@color-grey-cf: #cfcfcf;
+@color-white: #ffffff;
+@color-white-tr-1: rgba(255, 255, 255, 0.8);
+@color-white-tr-2: rgba(255, 255, 255, 0.6);
+@color-white-tr-3: rgba(255, 255, 255, 0.3);
+
+@color-social-1: #3B5997; /*facebook background color*/
+@color-social-2: #1DA1F3; /*twitter background color*/
+@color-social-3: #F4511E; /*google-plus background color*/
+@color-social-4: #2A445D; /*linkedin background color*/
+@color-social-5: #BD081B; /*pinterest-p background color*/
+@color-social-6: #CB3F6B; /*instragram background color*/
+@color-social-7: #FF0000; /*youtube background color*/
+
+@color-grd-1: #e74c3c; /* single grid background color*/
+@color-grd-2: #2ecc71; /* single grid background color*/
+@color-grd-3: #3498db; /* single grid background color*/
+@color-grd-4: #2c3e50; /* single grid background color*/
+
+@color-dc-btn-1: #1abc9c; /* dc-btn background color*/
+@color-dc-btn-2: #2ecc71; /* dc-btn background color*/
+@color-dc-btn-3: #3498db; /* dc-btn background color*/
+@color-dc-btn-4: #f1c40f; /* dc-btn background color*/
+@color-dc-btn-5: #95a5a6; /* dc-btn background color*/
+@color-dc-btn-6: #336E7B; /* dc-btn background color*/
+@color-dc-btn-7: #87D37C; /* dc-btn background color*/
+
+@font-size: 14px;
+
+@font-01 :'OpenSans', open-sans;
+@font-02 :'Montserrat', sans-serif;
+@font-03 :'Montserrat', sans-serif;
+
+@font-weight-1: 100;
+@font-weight-2: 200;
+@font-weight-3: 300;
+@font-weight-4: 400;
+@font-weight-5: 500;
+@font-weight-6: 600;
+@font-weight-7: 700;
+@font-weight-8: 800;
+@font-weight-9: 900;
+
+.less-brad(@prop){
+    -webkit-border-radius: @prop;
+    border-radius: @prop;
+}
+
+.less-bshadow(@prop){
+    -webkit-box-shadow: @prop;
+    box-shadow: @prop;
+}
+
+.less-transition(@prop: all 0.3s linear){
+    -webkit-transition: @prop;
+    -moz-transition: @prop;
+    -ms-transition: @prop;
+    -o-transition: @prop;
+    transition: @prop;    
+}
+
+.less-transform(@propscale){
+    -moz-transform: @propscale;
+    -webkit-transform: @propscale;
+    -o-transform: @propscale;
+    -ms-transform: @propscale;
+    transform: @propscale;
+}
+
+.less-scale (@factor) {
+	-webkit-transform: scale(@factor);
+	-moz-transform: 	 scale(@factor);
+	-ms-transform: 		 scale(@factor);
+	-o-transform: 		 scale(@factor);
+}
+
+.less-rotate (@deg) {
+	-webkit-transform: rotate(@deg);
+	-moz-transform: 	 rotate(@deg);
+	-ms-transform: 		 rotate(@deg);
+	-o-transform: 		 rotate(@deg);
+}
+
+.less-skew (@deg, @deg2) {
+	-webkit-transform:       skew(@deg, @deg2);
+	-moz-transform: 	 skew(@deg, @deg2);
+	-ms-transform: 		 skew(@deg, @deg2);
+	-o-transform: 		 skew(@deg, @deg2);
+}
+
+.less-translate (@x:0, @y:0) {
+	-webkit-transform:       translate(@x, @y);
+	-moz-transform: 	 translate(@x, @y);
+	-ms-transform: 		 translate(@x, @y);
+	-o-transform: 		 translate(@x, @y);
+}
+
+.less-translate3d (@x:0, @y: 0, @z: 0) {
+	-webkit-transform:       translate3d(@x, @y, @z);
+	-moz-transform: 	 translate3d(@x, @y, @z);
+	-ms-transform: 		 translate3d(@x, @y, @z);
+	-o-transform: 		 translate3d(@x, @y, @z);
+}
+
+.less-perspective (@value: 1000) {
+	-webkit-perspective: 	@value;
+	-moz-perspective: 	@value;
+	-ms-perspective: 	@value;
+	perspective: 		@value;
+}
+
+.less-transform-origin (@x:center, @y:center) {
+	-webkit-transform-origin: @x @y;
+	-moz-transform-origin:    @x @y;
+	-ms-transform-origin:     @x @y;
+	-o-transform-origin:      @x @y;
+}
+
+.less-gradient (@startColor: #eee, @endColor: white) {
+	background-color: @startColor;
+	background: -webkit-gradient(linear, left top, left bottom, from(@startColor), to(@endColor));
+	background: -webkit-linear-gradient(top, @startColor, @endColor);
+	background: -moz-linear-gradient(top, @startColor, @endColor);
+	background: -ms-linear-gradient(top, @startColor, @endColor);
+	background: -o-linear-gradient(top, @startColor, @endColor);
+	background: linear-gradient(top, @startColor, @endColor);
+}
+.less-hor-gradient (@startColor: #eee, @endColor: white) {
+ 	background-color: @startColor;
+	background-image: -webkit-gradient(linear, left top, right top, from(@startColor), to(@endColor));
+	background-image: -webkit-linear-gradient(left, @startColor, @endColor);
+	background-image: -moz-linear-gradient(left, @startColor, @endColor);
+	background-image: -ms-linear-gradient(left, @startColor, @endColor);
+	background-image: -o-linear-gradient(left, @startColor, @endColor);
+	background-image: linear-gradient(left, @startColor, @endColor);
+}
+.less-rad-gradient( @direction: 50% 50%, @origin: #fff, @end: #000 ) {
+    background-color: #e9b90f;
+    background-image: -webkit-gradient(radial, @direction,0,@direction,200, from(@end), to(@origin));
+    background-image: -webkit-radial-gradient(@direction, @origin, @end);
+    background-image: -moz-radial-gradient(@direction, @origin, @end);
+    background-image: -o-radial-gradient(@direction, @origin, @end);
+    background-image: -ms-radial-gradient(@direction, @origin, @end);
+    background-image: radial-gradient(@direction, @origin, @end);
+}
+.less-angle-gradient (@degree:90deg, @startColor: #eee, @endColor: white) {
+ 	background-color: @startColor;
+	background-image: -webkit-linear-gradient(@degree, @startColor, @endColor);
+	background-image: -moz-linear-gradient(@degree, @startColor, @endColor);
+	background-image: -ms-linear-gradient(@degree, @startColor, @endColor);
+	background-image: -o-linear-gradient(@degree, @startColor, @endColor);
+	background-image: linear-gradient(@degree, @startColor, @endColor);
+}

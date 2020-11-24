@@ -1,0 +1,137 @@
+.dc-nav{
+	width: 100%;
+}
+.dc-nav nav > ul:before, 
+.dc-nav nav > ul:after,
+.dc-nav nav > ul > li > div:before,
+.dc-nav nav > ul > li > div:after{
+	display: table;
+	content: '';
+} 
+.dc-nav nav > ul:after,
+.dc-nav nav > ul > li > div:after{
+	clear: both;
+}
+.dc-nav nav ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.dc-nav nav > ul > li{
+	float:left;
+}
+.dc-nav nav > ul > li,
+.dc-nav nav > ul > li li{
+	position: relative;
+}
+.dc-nav nav > ul ul{
+	position: absolute;
+	display: block;
+	white-space: nowrap;
+	opacity: 0;
+	visibility: hidden;
+	transition: all 0.3s linear;
+}
+.dc-nav nav > ul > li > ul{
+	left: 0;
+	top: 100%;
+	min-width: 100%;
+}
+.dc-nav nav li li ul{
+	left: 100%;
+	top: 0;
+}
+.dc-nav nav ul li:hover > ul{
+	opacity: 1;
+	visibility: visible;
+}
+.dc-nav nav ul a{
+	text-decoration: none;
+	color: #fff;
+	display: block;
+}
+.dc-nav span.dc-menutoggler{
+	position: absolute;
+    display: none;
+}
+.dc-nav > nav > ul > li.dc-megamenu{
+	position: initial;
+}
+.dc-nav.dc-nav-mobile > nav > ul > li.dc-megamenu{
+	position: relative;
+}
+.dc-nav > nav > ul > li.dc-megamenu > ul{
+	width: 100%;
+	top: initial;
+}
+.dc-nav > nav > ul > li.dc-megamenu > ul > li.dc-nav-mega-3 ul,
+.dc-nav > nav > ul > li.dc-megamenu > ul > li.dc-nav-mega-4 ul,
+.dc-nav > nav > ul > li.dc-megamenu > ul > li.dc-nav-mega-6 ul,
+.dc-nav > nav > ul > li.dc-megamenu > ul > li.dc-nav-mega-8 ul,
+.dc-nav > nav > ul > li.dc-megamenu > ul > li.dc-nav-mega-9 ul,
+.dc-nav > nav > ul > li.dc-megamenu > ul > li.dc-nav-mega-12 ul{
+	position: initial;
+	visibility: visible;
+	opacity: 1;
+}
+
+.dc-nav > nav > ul > li.dc-megamenu > ul > li.dc-nav-mega-3,
+.dc-nav > nav > ul > li.dc-megamenu > ul > li.dc-nav-mega-4,
+.dc-nav > nav > ul > li.dc-megamenu > ul > li.dc-nav-mega-6,
+.dc-nav > nav > ul > li.dc-megamenu > ul > li.dc-nav-mega-8,
+.dc-nav > nav > ul > li.dc-megamenu > ul > li.dc-nav-mega-9,
+.dc-nav > nav > ul > li.dc-megamenu > ul > li.dc-nav-mega-12{
+	float: left;
+}
+.dc-nav.dc-nav-mobile > nav > ul > li.dc-megamenu > ul > li.dc-nav-mega-3,
+.dc-nav.dc-nav-mobile > nav > ul > li.dc-megamenu > ul > li.dc-nav-mega-4,
+.dc-nav.dc-nav-mobile > nav > ul > li.dc-megamenu > ul > li.dc-nav-mega-6,
+.dc-nav.dc-nav-mobile > nav > ul > li.dc-megamenu > ul > li.dc-nav-mega-8,
+.dc-nav.dc-nav-mobile > nav > ul > li.dc-megamenu > ul > li.dc-nav-mega-9,
+.dc-nav.dc-nav-mobile > nav > ul > li.dc-megamenu > ul > li.dc-nav-mega-12{
+	float: none;
+	width: 100%;
+}
+.dc-nav > nav > ul > li.dc-megamenu > ul > li.dc-nav-mega-3{
+	width:25%;
+}
+.dc-nav > nav > ul > li.dc-megamenu > ul > li.dc-nav-mega-4{
+	width: 33.33%;
+}
+.dc-nav > nav > ul > li.dc-megamenu > ul > li.dc-nav-mega-6{
+	width: 50%;
+}
+.dc-nav > nav > ul > li.dc-megamenu > ul > li.dc-nav-mega-8{
+	width: 66.67%;
+}
+.dc-nav > nav > ul > li.dc-megamenu > ul > li.dc-nav-mega-9{
+	width: 75%;
+}
+.dc-nav > nav > ul > li.dc-megamenu > ul > li.dc-nav-mega-12{
+	width: 100%;
+}
+.dc-nav.dc-nav-mobile .menu-toggle{
+	display: initial
+}
+.dc-nav .menu-toggle{
+	display: none;
+}
+.dc-nav.dc-nav-mobile nav > ul li{
+	float:none;
+}
+.dc-nav.dc-nav-mobile span.dc-menutoggler{
+	display: initial;
+}
+.dc-nav.dc-nav-mobile nav ul{
+	position: initial;
+	display: block;
+	opacity: 1;
+	visibility: visible;
+}
+.dc-nav > nav > ul > li.dc-megamenu > ul {
+  height: 0;
+  overflow: hidden;
+}
+.dc-nav > nav > ul > li.dc-megamenu:hover > ul {
+  height: auto;
+}
